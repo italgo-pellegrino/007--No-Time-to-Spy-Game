@@ -1,2 +1,9 @@
 # 007--No-Time-to-Spy-Game
-Developing a multiplayer game called "No Time To Spy", with turn-based gameplay and the objective of finding a hidden object before the opponent using clues.
+
+This multiplayer game called "No Time To Spy" was developed by a team of 5 students as part of a university project that simulated a real-world assignment and involved collaboration and exchange with other teams. The game showcases the tactical nuances of espionage through a turn-based gameplay system, where the main objective was to find a hidden object on a randomly configured game field before the opponent, using clues. The game ran on a server-client communication model and supported two active players as well as an unlimited number of passive spectators.
+
+To create "No Time To Spy", our team had to develop several key components, including a client, a server, an editor, and an AI. During the project, we had the option to build either the server or the editor, and we ultimately chose to develop the editor. Later, we participated in an internal project market where we could advertise our implementation in exchange for other teams' work. All components of the game had to be programmed in such a way that they were interchangeable. For example, a client developed by Group A had to be able to communicate with a server developed by Group C, and the AI developed by Group D.
+
+The game was divided into three phases: the selection phase, the equipment phase, and the main game phase. In the selection phase, players had to choose between selecting a character or a gadget. In the equipment phase, players could assign gadgets to their chosen characters. Finally, in the main game phase, players used the clues they had collected to search for the hidden object while competing against their opponent.
+
+In terms of my personal contribution to the project, I primarily focused on implementing the selection and equipment phases, as well as the client-server connection. I also assisted with the documentation and other project deliverables.
